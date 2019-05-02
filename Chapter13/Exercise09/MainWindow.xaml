@@ -7,6 +7,20 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-       
+        <ComboBox HorizontalAlignment="Left" VerticalAlignment="Top"  Margin="10,10,0,0"
+                  Width="120"
+                  Name="colorsComboBox" SelectionChanged="ColorsComboBox_SelectionChanged">
+
+            <ComboBoxItem>Red</ComboBoxItem>
+            <ComboBoxItem>Green</ComboBoxItem>
+            <ComboBoxItem>Blue</ComboBoxItem>
+
+        </ComboBox>
+        
+        <Label HorizontalAlignment="Left" VerticalAlignment="Top" Margin="150,10,0,0"
+               Width="50" Height="30"
+               Content="Color" Name="colorLabel"/>
+
+
     </Grid>
 </Window>

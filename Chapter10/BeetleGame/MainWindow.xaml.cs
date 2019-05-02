@@ -11,10 +11,12 @@ namespace BeetleGame
     /// </summary>
     public partial class MainWindow : Window
     {
-      
+
+        private Beetle _beetle;
+
         public MainWindow()
         {
-            InitializeComponent();          
+            InitializeComponent();
         }
 
     }

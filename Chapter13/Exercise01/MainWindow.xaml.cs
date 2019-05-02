@@ -8,5 +8,13 @@ namespace Exercise01
         {
             InitializeComponent();
         }
+
+        private void ItemsListBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+            while (itemsListBox.SelectedIndex != -1)
+            {
+                itemsListBox.Items.RemoveAt(itemsListBox.SelectedIndex);
+            }
+        }
     }
 }

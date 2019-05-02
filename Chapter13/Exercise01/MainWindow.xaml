@@ -8,6 +8,15 @@
         Title="MainWindow" Height="350" Width="525"
         AutomationProperties.AutomationId="Window_13_1">
     <Grid>
-        
+        <ListBox HorizontalAlignment="Left"  VerticalAlignment="Top"  Margin="10,10,0,0"
+                 Height="100" Width="100"
+                 Name="itemsListBox" SelectionChanged="ItemsListBox_SelectionChanged">
+
+            <ListBoxItem>sugar</ListBoxItem>
+            <ListBoxItem>bread</ListBoxItem>
+            <ListBoxItem>water</ListBoxItem>
+            
+        </ListBox>
+
     </Grid>
 </Window>

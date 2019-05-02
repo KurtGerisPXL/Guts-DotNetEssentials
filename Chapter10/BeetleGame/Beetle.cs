@@ -8,7 +8,9 @@ namespace BeetleGame
 {
     public class Beetle
     {
-       
+        public Beetle(Canvas canvas, int x, int y, int size)
+        {
 
+        }
     }
 }

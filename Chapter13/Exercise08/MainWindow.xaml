@@ -7,5 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <ListBox HorizontalAlignment="Left"  VerticalAlignment="Top"  Margin="10,10,0,0"
+                 Height="200" Width="150"
+                 Name="personsListBox" MouseDoubleClick="PersonsListBox_MouseDoubleClick"/>
     </Grid>
 </Window>
